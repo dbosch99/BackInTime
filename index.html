@@ -80,12 +80,13 @@
   </div>
 
   <p class="small">
-    Requisiti minimi: macOS 13 Ventura • Apple Silicon
+    Requisiti minimi: macOS 14 Sonoma • Apple Silicon
   </p>
 
   <p>
     Utility per macOS che ripristina la data di creazione mostrata dal Finder per foto e video,
-    riportandola alla reale data di scatto quando il file contiene i metadati EXIF o equivalenti.
+    allineandola alla data di scatto presente nei metadati.
+    Funziona solo se il file contiene metadati di creazione validi (EXIF o equivalenti).
   </p>
 
   <div class="box">
@@ -109,6 +110,9 @@
     <p>
       L'app è pensata per i casi in cui un file esportato da Foto o da altri editor mantenga correttamente
       i metadati di scatto, ma perda la corrispondenza con la data di creazione mostrata nel file system.
+    </p>
+    <p>
+      Se il file non contiene metadati di creazione, l'app non può determinare la data originale e quindi non modifica il file.
     </p>
     <p>
       L'app è sviluppata in Swift e non utilizza librerie esterne.
