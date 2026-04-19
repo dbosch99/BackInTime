@@ -1,5 +1,5 @@
 // === AspectRatio SW: cambia SOLO questa riga per forzare un refresh completo ===
-const CACHE = 'backintime-19-04-2026-3';
+const CACHE = 'backintime-19-04-2026-4';
 // ==============================================================================
 
 const ASSETS = [
